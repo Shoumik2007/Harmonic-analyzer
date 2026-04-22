@@ -57,7 +57,7 @@ time, voltage
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 * Multi-phase signal analysis (V1, V2, V3)
 * Noise filtering
@@ -65,12 +65,12 @@ time, voltage
 * Better UI and charts
 
 ---
-## 🌍 Live Demo
+##  Live Demo
 
 https://harmonic-analyzer-6nkiukxiwqmwjfe7ypn8c6.streamlit.app/
 
 ---
-## ⚙️ How it Works
+## How it Works
 
 1. Signal is generated or uploaded  
 2. FFT converts signal to frequency domain  
