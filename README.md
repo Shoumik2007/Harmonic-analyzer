@@ -5,15 +5,20 @@ Harmonic Analyzer using FFT and THD (Streamlit App)
 A Streamlit-based application to analyze electrical signals using **Fast Fourier Transform (FFT)** and compute **Total Harmonic Distortion (THD)**.
 
 ---
+##  Live Demo
+
+https://harmonic-analyzer-6nkiukxiwqmwjfe7ypn8c6.streamlit.app/
+
+---
 
 ##  Features
 
-* 📈 Time-domain signal visualization
-* 📊 Frequency spectrum using FFT
-* 🔍 Automatic harmonic detection
-* ⚡ THD (Total Harmonic Distortion) calculation
-* 📂 Supports CSV input (time, voltage)
-* 🎛 Adjustable noise and frequency (simulated mode)
+*  Time-domain signal visualization
+*  Frequency spectrum using FFT
+*  Automatic harmonic detection
+*  THD (Total Harmonic Distortion) calculation
+*  Supports CSV input (time, voltage)
+*  Adjustable noise and frequency (simulated mode)
 
 ---
 
@@ -63,11 +68,6 @@ time, voltage
 * Noise filtering
 * Harmonic classification
 * Better UI and charts
-
----
-##  Live Demo
-
-https://harmonic-analyzer-6nkiukxiwqmwjfe7ypn8c6.streamlit.app/
 
 ---
 ## How it Works
