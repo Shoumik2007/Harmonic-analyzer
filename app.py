@@ -58,6 +58,13 @@ else:
     else:
         signal = data.iloc[:, 0].values
         fs = st.number_input("Sampling Frequency (Hz)", value=1000)
+        duration = len(signal) / fs
+
+        st.info(f"Estimated Signal Duration: {duration:.2f} seconds")
+        if duration > 5:
+          st.warning(" Signal seems too long. Check if sampling frequency is too low.")
+        elif duration < 0.1:
+          st.warning(" Signal seems too short. Sampling frequency might be too high.")
         t = np.linspace(0, len(signal)/fs, len(signal), endpoint=False)
 
 # -------------------------------
