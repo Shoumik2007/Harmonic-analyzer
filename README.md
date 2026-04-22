@@ -65,7 +65,20 @@ time, voltage
 * Better UI and charts
 
 ---
+## 🌍 Live Demo
 
+https://harmonic-analyzer-6nkiukxiwqmwjfe7ypn8c6.streamlit.app/
+
+---
+## ⚙️ How it Works
+
+1. Signal is generated or uploaded  
+2. FFT converts signal to frequency domain  
+3. Peaks are detected to find harmonics  
+4. THD is calculated using harmonic amplitudes
+
+    
+---
 ## 👨‍💻 Author
 
-Shoumik
+Shoumik Gunda
