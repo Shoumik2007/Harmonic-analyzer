@@ -21,7 +21,7 @@ st.markdown("""
 The generated signal is composed of:
 
 - **Fundamental Component**: Base sinusoidal waveform (e.g., 50 Hz)
-- **Harmonics**: Integer multiples of the base frequency (3rd, 5th, etc.)
+- **Harmonics included in signal**: Integer multiples of the base frequency (3rd, 5th)
 - **Noise**: Random Gaussian noise to simulate real-world disturbances
 
 This allows analysis of how distortion affects the frequency spectrum and Total Harmonic Distortion (THD).
