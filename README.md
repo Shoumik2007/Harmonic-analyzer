@@ -1,6 +1,6 @@
 # Harmonic-analyzer
 Harmonic Analyzer using FFT and THD (Streamlit App)
-#  Harmonic Analyzer
+
 
 A Streamlit-based application to analyze electrical signals using **Fast Fourier Transform (FFT)** and compute **Total Harmonic Distortion (THD)**.
 
