@@ -70,6 +70,7 @@ else:
 # -------------------------------
 # FFT
 # -------------------------------
+signal = signal - np.mean(signal) #######DC Componet Removal
 N = len(signal)
 if N < 2:
     st.error("Need at least 2 samples to calculate FFT.")
